@@ -471,6 +471,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -672,8 +673,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 193.0, 173.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 193.0, 173.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -1060,8 +1061,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 221.0, 203.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 221.0, 203.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -1449,7 +1450,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
 									"patching_rect" : [ 232.0, 238.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"text" : "drum_generator"
 								}
 
 							}
@@ -1836,8 +1837,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 205.0, 173.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 205.0, 173.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -2224,8 +2225,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 285.0, 228.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 285.0, 228.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -2612,8 +2613,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 219.0, 229.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 219.0, 229.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -3000,8 +3001,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 277.0, 225.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 277.0, 225.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -3159,7 +3160,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 424.0, 665.0, 640.0, 480.0 ],
+						"rect" : [ 187.0, 222.0, 640.0, 557.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3388,8 +3389,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 277.0, 225.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 277.0, 225.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -3776,8 +3777,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 210.0, 163.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 210.0, 163.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -3935,7 +3936,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 602.0, 529.0, 640.0, 480.0 ],
+						"rect" : [ 309.0, 185.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4164,8 +4165,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 205.0, 212.0, 151.0, 22.0 ],
-									"text" : "drum_generator_prototype"
+									"patching_rect" : [ 205.0, 212.0, 94.0, 22.0 ],
+									"text" : "drum_generator"
 								}
 
 							}
@@ -5154,9 +5155,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "drum_generator_prototype.maxpat",
-				"bootpath" : "~/Dropbox/8 - FALL 2020/MUMT 306/final Project",
-				"patcherrelativepath" : "..",
+				"name" : "drum_generator.maxpat",
+				"bootpath" : "~/Documents/perso/music_projects/Drum_machine/Drum_Machine_Patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
