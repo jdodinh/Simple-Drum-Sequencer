@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 596.0, 268.0, 1870.0, 994.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 740.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 52.25, 487.0, 58.0, 22.0 ],
+					"text" : "r channel"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-198",
 					"maxclass" : "newobj",
@@ -260,7 +272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 687.0, 97.0, 22.0 ],
-					"text" : "HHCLOSE1"
+					"text" : "HHCLOSE5"
 				}
 
 			}
@@ -272,7 +284,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 658.0, 97.0, 22.0 ],
-					"text" : "HHCLOSE5"
+					"text" : "CRASH2"
 				}
 
 			}
@@ -1555,7 +1567,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.333335280418396, 541.666670680046082, 19.0, 321.0 ],
 					"size" : 11,
-					"value" : 4
+					"value" : 0
 				}
 
 			}
@@ -1724,7 +1736,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 857.0, 97.0, 1307.0, 1006.0 ],
+						"rect" : [ 579.0, 97.0, 1307.0, 1006.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1752,7 +1764,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -3517,7 +3528,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 198.0, 401.0, 123.0, 22.0 ],
-					"text" : "Drum_Machine_v1_3"
+					"text" : "Drum_Machine_v1_4"
 				}
 
 			}
@@ -4040,6 +4051,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -4541,16 +4559,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Drum_Machine_v1_3.maxpat",
+				"name" : "Drum_Machine_v1_4.maxpat",
 				"bootpath" : "~/Dropbox/8 - FALL 2020/MUMT 306/final Project/Drum_Machine_Patch",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../Dropbox/8 - FALL 2020/MUMT 306/final Project/Drum_Machine_Patch",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drum_generator_prototype.maxpat",
 				"bootpath" : "~/Dropbox/8 - FALL 2020/MUMT 306/final Project",
-				"patcherrelativepath" : "..",
+				"patcherrelativepath" : "../../../../Dropbox/8 - FALL 2020/MUMT 306/final Project",
 				"type" : "JSON",
 				"implicit" : 1
 			}
